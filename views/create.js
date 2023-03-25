@@ -1,10 +1,11 @@
 
-import {StyleSheet, SafeAreaView, Text, } from 'react-native';
+import {StyleSheet, SafeAreaView, Text, View} from 'react-native';
 import AddContent from '../components/addContent';
 import Swipper from '../components/swipper';
 import SocialShare from '../components/socialShare';
 import BSocialLink from '../components/bsocial_link';
 
+import FontAwesome from 'react-native-vector-icons/FontAwesome5'
 
 export default function Create() {
 
@@ -28,7 +29,8 @@ export default function Create() {
         flex:1,
         alignItems:'center',
         justifyContent:'center',
-        backgroundColor:'#040404',
+       backgroundColor:'#040404',
+        
        },
        text:{
         fontSize:14,

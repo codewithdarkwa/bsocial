@@ -4,7 +4,7 @@ export default function BSocialLink(){
 
 
     return(
-        <View style={styles.contentContainer}>
+   <View style={styles.contentContainer}>
         <Text style={{color:'white',fontWeight:'bold'}}>Besocial_link</Text>
       <TouchableOpacity style={styles.button} opacity={0.5}>
       <Text style={{fontWeight:'bold',fontWeight:'bold'}}>Copy link</Text>
