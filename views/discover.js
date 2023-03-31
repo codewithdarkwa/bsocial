@@ -37,7 +37,7 @@ export default function Discover({navigation}){
                <ContentCard />
             </View>
             </ScrollView>
-               <Divider width={1}/>
+               <Divider width={1} color='black'/>
                <BottomTabs navigation={navigation} />
         </SafeAreaView>
     )
