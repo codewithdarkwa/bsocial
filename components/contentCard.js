@@ -1,4 +1,4 @@
-import { View, Image, TouchableOpacity, FlatList } from 'react-native';
+import { Image, TouchableOpacity, FlatList } from 'react-native';
 
 export default function ContentCard() {
   const thumbnails = [
